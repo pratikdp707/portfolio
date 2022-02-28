@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #383E56;
+}
+
+h4{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #383E56; 
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FB743E;
+}
+
+.btn-resume {
+    background-color: #FB743E;
+    color: #383E56;
+    font-weight: 600;
+}
+
+.btn-resume:hover {
+    background-color: #383E56;
+    color: #FB743E;
+}
+
+.contact-img {
+    color: #FB743E;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #383E56;
+}
+
+a:hover{
+    color: #383E56;
+    text-decoration-line: underline;
+    text-decoration-color:#FB743E;
+}
+
+.contact-content{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #383E56;
+}
+
+@media only screen and (min-width: 800px) {
+    .row {
+        margin: 80px;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .row {
+        padding-left: 25px;
+    }
+}

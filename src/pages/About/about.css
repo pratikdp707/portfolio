@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+p {
+    font-size: 1rem;
+    color: #383E56;
+}
+
+.heading {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FB743E;
+}
+
+.profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+li {
+    color: #FB743E;
+}

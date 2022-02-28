@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FB743E;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: #fd6022;
+}
+
+.btn-dropdown {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FB743E;
+    color: white;
+}
+
+.btn-dropdown:hover {
+    background-color: #fd6022;
+    color: white;
+}
+
+.nav-link{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FB743E;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: #fd6022;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .container-fluid {
+      padding: 0 100px;
+    }
+}

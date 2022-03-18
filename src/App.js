@@ -5,6 +5,7 @@ import { Home } from './pages/Home/Home';
 import { Navbar } from './pages/Navbar/Navbar';
 import {Experience} from './pages/Experience/Experience'
 import {Projects} from './pages/Projects/Projects'
+import Footer from './pages/Footer/Footer';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Projects/>
       <Experience/>
+      <Footer/>
     </div>
   );
 }

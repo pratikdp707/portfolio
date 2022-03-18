@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+.navbar-back {
+    background-color: #fff;
+    height: 65px;
+}
+
+.navbar {
+    background-color: #383E56;
+}
+
 .navbar-brand {
     font-family: 'Nunito Sans', sans-serif;
     color: #FB743E;

@@ -12,7 +12,7 @@ h4{
 
 h2 {
     font-family: 'Nunito Sans', sans-serif;
-    color: #FB743E;
+    color: #383E56;
 }
 
 .btn-resume {
@@ -59,4 +59,40 @@ a:hover{
     .row {
         padding-left: 25px;
     }
+}
+
+.name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3.5rem;
+    color: #FB743E;
+  }
+
+.google-icon {
+    background-color: rgb(223, 63, 63);
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding-top: 9.5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.linkedin-icon {
+    background-color: #0E76A8;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding-top: 9.5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.github-icon {
+    background-color: #333333;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding-top: 9.5px;
+    border-radius: 50%;
+    font-size: 20px;
 }

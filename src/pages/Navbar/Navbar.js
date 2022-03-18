@@ -3,8 +3,8 @@ import './navbar.css'
 export const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-light">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg fixed-top p-0">
+                <div className='container-fluid navbar-back mx-5'>
                     {/* <Link className="navbar-brand" to="/">Pratik Parate</Link> */}
                     <a href="#home" className='navbar-brand fw-bold fs-3'>Pratik Parate</a>
                     <button className="navbar-toggler btn-dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

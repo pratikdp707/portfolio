@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #383E56;
+}
+
+.p-name {
+    font-size: 1.4rem;
 }
 
 .heading {
@@ -15,6 +19,17 @@ p {
     width: 200px;
     border-radius: 50%;
 
+}
+
+.skill-box {
+    height: 37px;
+    width: auto;
+    background-color: #FB743E;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    color: #383E56;
 }
 
 li {

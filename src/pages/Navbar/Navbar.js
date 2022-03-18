@@ -6,7 +6,7 @@ export const Navbar = () => {
             <nav className="navbar navbar-expand-lg fixed-top p-0">
                 <div className='container-fluid navbar-back mx-5'>
                     {/* <Link className="navbar-brand" to="/">Pratik Parate</Link> */}
-                    <a href="#home" className='navbar-brand fw-bold fs-3'>Pratik Parate</a>
+                    <a href="#home" className='navbar-brand fw-bold fs-2'>&lt; Pratik Parate /&gt;</a>
                     <button className="navbar-toggler btn-dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className='fa fa-bars '></i>
                     </button>

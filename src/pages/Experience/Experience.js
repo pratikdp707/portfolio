@@ -23,34 +23,32 @@ export const Experience = () => {
             <h1 className='heading pt-5 text-center mb-4'>Experience</h1>
             <div className="d-flex justify-content-center pb-5">
                 {
-                    experience.map(exp => (
-                        <>
-                            <div className="exp-card mx-3">
-                                <div className="exp-banner">
-                                    <div className="exp-blurred-div"></div>
-                                    <div className="exp-div-company">
-                                        <h5 className='exp-text-company'>{exp.name}</h5>
-                                    </div>
-                                    <img className="exp-img" src={exp.logo} alt="" />
+                    experience.map((exp, index) => (
+                        <div className="exp-card mx-3" key={index}>
+                            <div className="exp-banner">
+                                <div className="exp-blurred-div"></div>
+                                <div className="exp-div-company">
+                                    <h5 className='exp-text-company'>{exp.name}</h5>
                                 </div>
-                                <div className="exp-text-details"></div>
-                                <h5 className='exp-text-role'>{exp.designation}</h5>
-                                <h6 className='text-muted exp-text-location'>{exp.place}</h6>
-                                <h5 className='exp-text-date'>{exp.duration}</h5>
-
-
-                                <ul>
-                                    {
-                                        exp.work.map(w => (
-                                            <>
-                                                <li className="subtitle text-muted">{w}</li>
-                                            </>
-                                        ))
-                                    }
-
-                                </ul>
+                                <img className="exp-img" src={exp.logo} alt="" />
                             </div>
-                        </>
+                            <div className="exp-text-details"></div>
+                            <h5 className='exp-text-role'>{exp.designation}</h5>
+                            <h6 className='text-muted exp-text-location'>{exp.place}</h6>
+                            <h5 className='exp-text-date'>{exp.duration}</h5>
+
+
+                            <ul>
+                                {
+                                    exp.work.map((w,index) => (
+
+                                        <li className="subtitle text-muted" key={index}>{w}</li>
+
+                                    ))
+                                }
+
+                            </ul>
+                        </div>
                     ))
                 }
             </div>

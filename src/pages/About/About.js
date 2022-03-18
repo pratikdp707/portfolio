@@ -26,9 +26,9 @@ export const About = () => {
                     <h2>Skills</h2>
                     <div className='d-flex flex-wrap'>
                         {
-                            skills1.map((skill) => {
+                            skills1.map((skill, index) => {
                                 return(
-                                    <div className='skill-box'>
+                                    <div className='skill-box' key={index}>
                                         {skill}
                                     </div>
                                 )

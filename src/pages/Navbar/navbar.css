@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 .navbar-back {
     background-color: #fff;
     height: 65px;
@@ -10,7 +10,7 @@
 }
 
 .navbar-brand {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
     color: #FB743E;
     text-decoration: none;
 }

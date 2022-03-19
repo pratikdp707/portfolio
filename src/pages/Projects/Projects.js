@@ -67,7 +67,7 @@ export const Projects = () => {
                 {projects.length > 0 &&
                     projects.map((project, index) => (
                         <div className="col-lg-6 col-md-12" key={index}>
-                            <div className="card shadow p-3 mb-5 bg-body rounded me-5">
+                            <div className="card shadow p-3 mb-5 bg-body rounded mx-2">
                                 <div className="card-body">
                                     <h5 className="card-title">{project.name}</h5>
                                     {project.description && <h6 className="card-subtitle mb-2 text-muted">{project.description}</h6>}
@@ -75,7 +75,7 @@ export const Projects = () => {
                                     {
                                         project.username && project.password &&
                                         <>
-                                            <h6 className='card-subtitle mb-1 text-tech'>Demo Credentias:</h6>
+                                            <h6 className='card-subtitle mb-1 text-tech'>Demo Credentials:</h6>
                                             <div className='d-flex justify-content-between'>
                                                 <h6 className='card-subtitle mb-3 text-tech'>Username : {project.username}</h6>
                                                 <h6 className='card-subtitle mb-3 text-tech'>Password : {project.password}</h6>

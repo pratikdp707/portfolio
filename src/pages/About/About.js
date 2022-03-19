@@ -10,15 +10,17 @@ export const About = () => {
             <h1 className='text-center pt-5 heading'>About Me</h1>
             <div className="container text-start ps-3">
                 <div className="row mt-3 mb-3">
-                    <div className="col-lg-4 text-center mb-2">
+                    <div className="col-lg-4 text-center mb-2 mt-2">
                         <img className="profile-img" src={profile} alt="profile-img" />
                     </div>  
-                    <div className="col-lg-8 mt-2 mb-4">
+                    <div className="col-lg-8 mb-4">
                         <p className='mb-0 p-name'>Hello, I'm Pratik Parate.</p>
                         <p className='mb-3'>I am Computer Engineer from Pune, Maharashtra, India. I am currently working with RBL Bank as a Manager - Technology and Solution (IT). </p>
                         <p>
-                            I love spending time on fixing little details and optimizing web apps. I also like to work in team, as you'll learn faster and much more. As the saying goes: 'Two heads are better than one'.
+                        Focused on building a diverse set of skills to find effective and creative solutions for all my projects.
+                        <p>I design full-stack applications built on simplistic, stable and rapid technologies that offer creative solutions to common tedious problems. I specialize in web development.</p>
                         </p>
+                        <p></p>
                     </div>
 
                 </div>

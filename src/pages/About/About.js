@@ -18,7 +18,7 @@ export const About = () => {
                         <p className='mb-3'>I am Computer Engineer from Pune, Maharashtra, India. I am currently working with RBL Bank as a Manager - Technology and Solution (IT). </p>
                         <p>
                         Focused on building a diverse set of skills to find effective and creative solutions for all my projects.
-                        <p>I design full-stack applications built on simplistic, stable and rapid technologies that offer creative solutions to common tedious problems. I specialize in web development.</p>
+                        <p>I design full-stack applications built on simplistic, stable and rapid technologies that offer creative solutions to common problems. I specialize in web development.</p>
                         </p>
                         <p></p>
                     </div>

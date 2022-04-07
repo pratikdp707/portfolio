@@ -29,7 +29,7 @@ export const Projects = () => {
         username: "demo@gmail.com",
         password: "demo",
         github: "https://github.com/pratikdp707/Netflix-clone",
-        deploy: "http://54.173.113.177/"
+        deploy: "https://mynetflixclone-app.netlify.app/"
     }, {
         name: "Inshorts Clone",
         description: "Web application which shows news based on the category selected by user.",
